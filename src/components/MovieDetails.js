@@ -25,7 +25,7 @@ const MovieDetails = () => {
             )
         }else{
             return(
-                <button className='btn btn-primary' onClick={bookAMovie()}>Louez le film</button>
+                <button className='btn btn-primary'>Louez le film</button>
             ) 
         }
     }
